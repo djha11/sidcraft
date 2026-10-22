@@ -10,32 +10,48 @@ Built with Expo, React Native, Next.js, Fastify, PostgreSQL, Redis, LiveKit, and
 
 ## Product preview
 
-<table>
-  <tr>
-    <td align="center"><img src="docs/screenshots/feed.png" alt="SidCraft social feed" width="260" /></td>
-    <td align="center"><img src="docs/screenshots/news.png" alt="SidCraft source-linked news" width="260" /></td>
-    <td align="center"><img src="docs/screenshots/reels.png" alt="SidCraft full-screen reels" width="260" /></td>
-    <td align="center"><img src="docs/screenshots/profile.png" alt="SidCraft profile" width="260" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Social feed</strong></td>
-    <td align="center"><strong>News + reels</strong></td>
-    <td align="center"><strong>Full-screen reels</strong></td>
-    <td align="center"><strong>Profiles</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/signup.png" alt="SidCraft account creation" width="260" /></td>
-    <td align="center"><img src="docs/screenshots/chat.png" alt="SidCraft private messaging" width="260" /></td>
-    <td align="center"><img src="docs/screenshots/media.png" alt="SidCraft photo and video tools" width="260" /></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Identity & onboarding</strong></td>
-    <td align="center"><strong>Private messaging</strong></td>
-    <td align="center"><strong>Photo & video tools</strong></td>
-  </tr>
-</table>
+These are captures from the current white SidCraft build—not concept mockups.
 
-The gallery represents the main user journeys. The repository also contains the responsive administration portal for publishing, verification, moderation, analytics, notifications, user management, platform configuration, and auditable AI-news review.
+### Operations dashboard
+
+![Current SidCraft administration dashboard](docs/screenshots/admin-dashboard-current.png)
+
+### Opinion studio
+
+![Current SidCraft opinion builder with targeting, scheduling, media, answer options, and connected mobile preview](docs/screenshots/admin-opinions-current.png)
+
+### AI-assisted news desk
+
+![Current SidCraft source-linked AI news intake and human review queue](docs/screenshots/admin-ai-news-current.png)
+
+The responsive control center brings publishing, verification, moderation, analytics, notifications, user management, platform configuration, and auditable AI-news review into one consistent workspace.
+
+## How the product fits together
+
+| Surface | Purpose | Representative capabilities |
+| --- | --- | --- |
+| **SidCraft app** | Community participation | Feed, stories, reels, profiles, follows, reactions, comments, reposts, private chat, calls, polls, and source-linked news |
+| **Admin portal** | Operations and trust | User search, verification badges, content publishing, moderation queues, opinion targeting, notifications, analytics, settings, and audit logs |
+| **API** | Shared application rules | Authentication, authorization, media metadata, social graph, engagement, polling, moderation, verification, news, and live-session lifecycle |
+| **Worker** | Controlled automation | Approved-source intake, extraction, language normalization, categorization, duplicate detection, draft generation, and review-queue delivery |
+
+## End-to-end workflows
+
+### Social publishing
+
+Creators capture or upload media, publish posts/stories/reels, and receive engagement through the same API used by the web and native clients. Browser-specific media handling is separated from native filesystem behavior so web uploads do not depend on native-only APIs.
+
+### Public opinion
+
+Admins build multiple-choice or open-text opinions, attach poll-level or answer-level media, select country/state/constituency audiences, publish immediately or schedule, and monitor privacy-preserving aggregate results. Individual votes and unsafe small demographic slices are never exposed.
+
+### Verification and moderation
+
+Verification is a stored account state—not a decorative local flag. Badge changes flow through the API and can be reflected anywhere an identity appears. Moderation, rejection, disabling, and audit history remain administrative actions with explicit state transitions.
+
+### Source-linked AI news
+
+The intake worker monitors configured and permitted sources, extracts canonical links and media metadata, detects duplicate stories across publishers, normalizes non-English material, and prepares a draft. The model does **not** silently publish: an administrator reviews the source evidence, edits the card, then approves or rejects it.
 
 ## What SidCraft includes
 
