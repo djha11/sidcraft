@@ -14,11 +14,13 @@ Built with Expo, React Native, Next.js, Fastify, PostgreSQL, Redis, LiveKit, and
   <tr>
     <td align="center"><img src="docs/screenshots/feed.png" alt="SidCraft social feed" width="260" /></td>
     <td align="center"><img src="docs/screenshots/news.png" alt="SidCraft source-linked news" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/reels.png" alt="SidCraft full-screen reels" width="260" /></td>
     <td align="center"><img src="docs/screenshots/profile.png" alt="SidCraft profile" width="260" /></td>
   </tr>
   <tr>
     <td align="center"><strong>Social feed</strong></td>
     <td align="center"><strong>News + reels</strong></td>
+    <td align="center"><strong>Full-screen reels</strong></td>
     <td align="center"><strong>Profiles</strong></td>
   </tr>
   <tr>
