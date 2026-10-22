@@ -10,7 +10,34 @@ Built with Expo, React Native, Next.js, Fastify, PostgreSQL, Redis, LiveKit, and
 
 ## Product preview
 
-These are captures from the current white SidCraft build—not concept mockups.
+The administration captures are from the current white SidCraft build. The mobile gallery preserves real implemented app workflows from the preceding visual theme while new light-theme captures are prepared.
+
+### Mobile app experience
+
+The mobile gallery below shows the implemented social journeys from an earlier visual theme. The underlying feed, news, reels, profile, messaging, and media workflows remain part of SidCraft while their presentation is being aligned with the current white design system.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/feed.png" alt="SidCraft mobile social feed with an opinion poll" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/news.png" alt="SidCraft source-linked mobile news experience" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/reels.png" alt="SidCraft full-screen mobile reels experience" width="260" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Social feed and polls</strong></td>
+    <td align="center"><strong>Source-linked news</strong></td>
+    <td align="center"><strong>Full-screen reels</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/profile.png" alt="SidCraft mobile user profile" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/chat.png" alt="SidCraft mobile private messaging" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/media.png" alt="SidCraft mobile photo and video tools" width="260" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Profiles and connections</strong></td>
+    <td align="center"><strong>Private messaging</strong></td>
+    <td align="center"><strong>Photo and video tools</strong></td>
+  </tr>
+</table>
 
 ### Operations dashboard
 
