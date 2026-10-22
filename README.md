@@ -21,7 +21,19 @@ Built with Expo, React Native, Next.js, Fastify, PostgreSQL, Redis, LiveKit, and
     <td align="center"><strong>News + reels</strong></td>
     <td align="center"><strong>Profiles</strong></td>
   </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/signup.png" alt="SidCraft account creation" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/chat.png" alt="SidCraft private messaging" width="260" /></td>
+    <td align="center"><img src="docs/screenshots/media.png" alt="SidCraft photo and video tools" width="260" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Identity & onboarding</strong></td>
+    <td align="center"><strong>Private messaging</strong></td>
+    <td align="center"><strong>Photo & video tools</strong></td>
+  </tr>
 </table>
+
+The gallery represents the main user journeys. The repository also contains the responsive administration portal for publishing, verification, moderation, analytics, notifications, user management, platform configuration, and auditable AI-news review.
 
 ## What SidCraft includes
 
