@@ -1,0 +1,47 @@
+{
+  "name": "@pulse/mobile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "cross-env __UNSAFE_EXPO_HOME_DIRECTORY=.expo-home expo start",
+    "build": "cross-env EXPO_NO_TELEMETRY=1 __UNSAFE_EXPO_HOME_DIRECTORY=.expo-home expo export --platform android",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@pulse/contracts": "workspace:*",
+    "@config-plugins/react-native-webrtc": "^13.0.0",
+    "@livekit/react-native": "^2.9.4",
+    "@livekit/react-native-expo-plugin": "^1.0.1",
+    "@livekit/react-native-webrtc": "^144.1.2",
+    "expo": "~54.0.0",
+    "expo-audio": "~1.1.1",
+    "expo-constants": "~18.0.0",
+    "expo-camera": "~17.0.8",
+    "expo-document-picker": "~14.0.8",
+    "expo-file-system": "~19.0.24",
+    "expo-location": "~19.0.0",
+    "expo-notifications": "~0.32.17",
+    "expo-router": "~6.0.0",
+    "expo-secure-store": "~15.0.0",
+    "expo-status-bar": "~3.0.0",
+    "expo-video": "~3.0.16",
+    "livekit-client": "^2.15.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "~0.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "cross-env": "^10.0.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

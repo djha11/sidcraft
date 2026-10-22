@@ -1,0 +1,79 @@
+# yaml-language-server: $schema=https://json.schemastore.org/render.yaml
+databases:
+  - name: pulse-postgres
+    plan: basic-256mb
+    databaseName: pulse
+    user: pulse
+    ipAllowList: []
+
+services:
+  - type: web
+    name: pulse-api
+    runtime: docker
+    plan: 0.5c-512mb
+    dockerfilePath: ./ops/docker/api.Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    preDeployCommand: pnpm --filter @pulse/database db:migrate
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_PORT
+        value: 10000
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pulse-postgres
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_API_KEY
+        sync: false
+      - key: LIVEKIT_PUBLIC_URL
+        sync: false
+      - key: LIVEKIT_API_KEY
+        sync: false
+      - key: LIVEKIT_API_SECRET
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: PULSE_NEWS_AI_PROVIDER
+        value: ollama_cloud
+      - key: OLLAMA_API_KEY
+        sync: false
+      - key: PULSE_NEWS_MODEL
+        value: nemotron-3-nano:30b
+
+  - type: web
+    name: pulse-admin
+    runtime: docker
+    plan: 0.5c-512mb
+    dockerfilePath: ./ops/docker/admin.Dockerfile
+    dockerContext: .
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PULSE_API_URL
+        fromService:
+          type: web
+          name: pulse-api
+          property: hostport
+      - key: ADMIN_API_KEY
+        sync: false
+
+  - type: worker
+    name: pulse-ai-news-worker
+    runtime: docker
+    plan: 0.5c-512mb
+    dockerfilePath: ./ops/docker/news-worker.Dockerfile
+    dockerContext: .
+    envVars:
+      - key: PULSE_API_URL
+        fromService:
+          type: web
+          name: pulse-api
+          property: hostport
+      - key: ADMIN_API_KEY
+        sync: false

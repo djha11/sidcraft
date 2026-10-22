@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "SidCraft",
+    "slug": "sidcraft",
+    "scheme": "sidcraft",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "@livekit/react-native-expo-plugin",
+      "@config-plugins/react-native-webrtc",
+      [
+        "expo-notifications",
+        { "color": "#087FE7", "defaultChannel": "social" }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "SidCraft uses your camera to create photos, videos, stories, and Live broadcasts.",
+          "microphonePermission": "SidCraft uses your microphone when recording video or going Live.",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "SidCraft uses your microphone to record voice messages."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "SidCraft uses your location only to personalize civic polls. Precise coordinates are not stored."
+        }
+      ]
+    ],
+    "experiments": { "typedRoutes": true },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.projectpulse.mobile"
+    },
+    "android": { "package": "com.projectpulse.mobile" }
+  }
+}

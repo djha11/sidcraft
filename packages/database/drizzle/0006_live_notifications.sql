@@ -1,0 +1,9 @@
+CREATE TYPE "live_status" AS ENUM ('live', 'ended');
+CREATE TYPE "notification_type" AS ENUM ('follow', 'follow_back', 'post_like', 'post_comment', 'mention', 'live_started');
+CREATE TABLE "live_sessions" ("id" uuid PRIMARY KEY DEFAULT gen_random_uuid(), "host_id" uuid NOT NULL REFERENCES "users"("id") ON DELETE CASCADE, "title" varchar(120) NOT NULL DEFAULT '', "status" "live_status" NOT NULL DEFAULT 'live', "started_at" timestamptz NOT NULL DEFAULT now(), "ended_at" timestamptz);
+CREATE INDEX "live_sessions_status_started_idx" ON "live_sessions" ("status", "started_at");
+CREATE TABLE "live_viewers" ("live_session_id" uuid NOT NULL REFERENCES "live_sessions"("id") ON DELETE CASCADE, "viewer_id" uuid NOT NULL REFERENCES "users"("id") ON DELETE CASCADE, "joined_at" timestamptz NOT NULL DEFAULT now(), "left_at" timestamptz, PRIMARY KEY ("live_session_id", "viewer_id"));
+CREATE TABLE "live_comments" ("id" uuid PRIMARY KEY DEFAULT gen_random_uuid(), "live_session_id" uuid NOT NULL REFERENCES "live_sessions"("id") ON DELETE CASCADE, "author_id" uuid NOT NULL REFERENCES "users"("id") ON DELETE CASCADE, "body" varchar(300) NOT NULL, "created_at" timestamptz NOT NULL DEFAULT now());
+CREATE INDEX "live_comments_session_created_idx" ON "live_comments" ("live_session_id", "created_at");
+CREATE TABLE "notifications" ("id" uuid PRIMARY KEY DEFAULT gen_random_uuid(), "recipient_id" uuid NOT NULL REFERENCES "users"("id") ON DELETE CASCADE, "actor_id" uuid REFERENCES "users"("id") ON DELETE SET NULL, "type" "notification_type" NOT NULL, "message" varchar(240) NOT NULL, "post_id" uuid REFERENCES "feed_posts"("id") ON DELETE CASCADE, "live_session_id" uuid REFERENCES "live_sessions"("id") ON DELETE CASCADE, "read_at" timestamptz, "created_at" timestamptz NOT NULL DEFAULT now());
+CREATE INDEX "notifications_recipient_created_idx" ON "notifications" ("recipient_id", "created_at");

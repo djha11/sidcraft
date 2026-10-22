@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0d12" />
+  <title>SidCraft — Product Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <div class="shell">
+    <aside class="rail" aria-label="Primary navigation">
+      <button class="brand" data-route="pulse" aria-label="SidCraft home"><span>S</span></button>
+      <nav id="desktopNav"></nav>
+      <div class="rail-foot"><button class="avatar mini" data-route="profile">AK</button></div>
+    </aside>
+
+    <main class="phone" id="app">
+      <header class="topbar">
+        <button class="avatar" data-route="profile">AK</button>
+        <div class="wordmark"><span class="live-dot"></span><b>SidCraft</b></div>
+        <div class="top-actions"><button data-route="search" aria-label="Search">⌕</button><button aria-label="Notifications">♢<i></i></button></div>
+      </header>
+      <section id="screen" class="screen" aria-live="polite"></section>
+      <nav id="mobileNav" class="bottom-nav" aria-label="Primary navigation"></nav>
+    </main>
+
+    <aside class="context-panel">
+      <div class="context-title"><span>Live context</span><span class="status">● Online</span></div>
+      <div class="context-card">
+        <p class="eyebrow">WHAT'S MOVING</p>
+        <h3>Public transport</h3>
+        <p>Opinion shifted <strong>+8 points</strong> after today's policy announcement.</p>
+        <div class="spark"><i style="height:28%"></i><i style="height:38%"></i><i style="height:34%"></i><i style="height:55%"></i><i style="height:66%"></i><i style="height:84%"></i></div>
+      </div>
+      <div class="context-card subtle">
+        <p class="eyebrow">YOUR IMPACT</p>
+        <div class="impact"><strong>12</strong><span>polls answered</span></div>
+        <div class="impact"><strong>4</strong><span>conversations joined</span></div>
+      </div>
+      <p class="prototype-note">Interactive UX prototype<br />Seed data · no account required</p>
+    </aside>
+  </div>
+
+  <dialog id="evidenceDialog">
+    <button class="close" aria-label="Close">×</button>
+    <p class="eyebrow">EVIDENCE LEDGER</p>
+    <h2>Why this is marked source-backed</h2>
+    <div id="evidenceBody"></div>
+    <button class="primary full close-action">Done</button>
+  </dialog>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

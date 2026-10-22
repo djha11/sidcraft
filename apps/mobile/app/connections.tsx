@@ -1,0 +1,13 @@
+import { Ionicons } from "@expo/vector-icons";
+import type { FeedAuthor } from "@pulse/contracts";
+import { router, useLocalSearchParams } from "expo-router";
+import { useEffect, useState } from "react";
+import { ActivityIndicator, FlatList, Pressable, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { api } from "../src/api";
+import { useAuth } from "../src/auth";
+import { palette } from "../src/theme";
+import { VerifiedName } from "../src/verified-name";
+
+export default function Connections(){const auth=useAuth(),params=useLocalSearchParams<{userId:string;kind:"followers"|"following"}>(),[items,setItems]=useState<FeedAuthor[]|null>(null);const kind=params.kind==="following"?"following":"followers";useEffect(()=>{if(auth.accessToken&&params.userId)void api.profileConnections(params.userId,kind,auth.accessToken).then(x=>setItems(x.items)).catch(()=>setItems([]));},[auth.accessToken,params.userId,kind]);return <SafeAreaView style={s.safe}><View style={s.head}><Pressable accessibilityLabel="Back" onPress={()=>router.back()}><Ionicons name="chevron-back" size={28} color={palette.text}/></Pressable><Text style={s.title}>{kind==="followers"?"Followers":"Following"}</Text><View style={{width:28}}/></View>{items?<FlatList data={items} keyExtractor={x=>x.id} ListEmptyComponent={<Text style={s.empty}>No {kind} yet.</Text>} renderItem={({item})=><Pressable onPress={()=>router.push(`/users/${item.id}` as never)} style={s.row}><View style={s.avatar}><Text style={s.avatarText}>{item.displayName[0]?.toUpperCase()}</Text></View><View style={{flex:1}}><VerifiedName name={item.displayName} type={item.verificationType} textStyle={s.name}/><Text style={s.handle}>@{item.handle}</Text></View><Ionicons name="chevron-forward" size={20} color={palette.muted}/></Pressable>}/>:<ActivityIndicator style={{marginTop:60}} color={palette.accent}/>}</SafeAreaView>}
+const s=StyleSheet.create({safe:{flex:1,backgroundColor:palette.background},head:{height:58,paddingHorizontal:15,flexDirection:"row",alignItems:"center",justifyContent:"space-between",borderBottomWidth:1,borderBottomColor:palette.borderSoft},title:{fontSize:18,fontWeight:"900",color:palette.text,textTransform:"capitalize"},row:{minHeight:72,paddingHorizontal:18,flexDirection:"row",alignItems:"center",gap:12,borderBottomWidth:StyleSheet.hairlineWidth,borderBottomColor:palette.borderSoft},avatar:{width:46,height:46,borderRadius:23,backgroundColor:palette.surface,alignItems:"center",justifyContent:"center"},avatarText:{color:palette.accent,fontWeight:"900"},name:{color:palette.text,fontSize:15,fontWeight:"800"},handle:{color:palette.muted,fontSize:12,marginTop:3},empty:{color:palette.muted,textAlign:"center",marginTop:80}});

@@ -1,0 +1,3260 @@
+[
+  {
+    "state": "Andaman and Nicobar Islands",
+    "number": 1,
+    "name": "Andaman and Nicobar Islands",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 1,
+    "name": "Araku",
+    "reservation": "ST"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 2,
+    "name": "Srikakulam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 3,
+    "name": "Vizianagaram",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 4,
+    "name": "Visakhapatnam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 5,
+    "name": "Anakapalli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 6,
+    "name": "Kakinada",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 7,
+    "name": "Amalapuram",
+    "reservation": "SC"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 8,
+    "name": "Rajahmundry",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 9,
+    "name": "Narasapuram",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 10,
+    "name": "Eluru",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 11,
+    "name": "Machilipatnam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 12,
+    "name": "Vijayawada",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 13,
+    "name": "Guntur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 14,
+    "name": "Narasaraopet",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 15,
+    "name": "Bapatla",
+    "reservation": "SC"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 16,
+    "name": "Ongole",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 17,
+    "name": "Nandyal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 18,
+    "name": "Kurnool",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 19,
+    "name": "Anantapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 20,
+    "name": "Hindupur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 21,
+    "name": "Kadapa",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 22,
+    "name": "Nellore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 23,
+    "name": "Tirupati",
+    "reservation": "SC"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 24,
+    "name": "Rajampet",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "number": 25,
+    "name": "Chittoor",
+    "reservation": "SC"
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "number": 1,
+    "name": "Arunachal West",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "number": 2,
+    "name": "Arunachal East",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 1,
+    "name": "Kokrajhar",
+    "reservation": "ST"
+  },
+  {
+    "state": "Assam",
+    "number": 2,
+    "name": "Dhubri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 3,
+    "name": "Barpeta",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 4,
+    "name": "Darrang-Udalguri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 5,
+    "name": "Guwahati",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 6,
+    "name": "Diphu",
+    "reservation": "ST"
+  },
+  {
+    "state": "Assam",
+    "number": 7,
+    "name": "Karimganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 8,
+    "name": "Silchar",
+    "reservation": "SC"
+  },
+  {
+    "state": "Assam",
+    "number": 9,
+    "name": "Nagaon",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 10,
+    "name": "Kaziranga",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 11,
+    "name": "Sonitpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 12,
+    "name": "Lakhimpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 13,
+    "name": "Dibrugarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Assam",
+    "number": 14,
+    "name": "Jorhat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 1,
+    "name": "Valmiki Nagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 2,
+    "name": "Paschim Champaran",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 3,
+    "name": "Purvi Champaran",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 4,
+    "name": "Sheohar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 5,
+    "name": "Sitamarhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 6,
+    "name": "Madhubani",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 7,
+    "name": "Jhanjharpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 8,
+    "name": "Supaul",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 9,
+    "name": "Araria",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 10,
+    "name": "Kishanganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 11,
+    "name": "Katihar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 12,
+    "name": "Purnia",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 13,
+    "name": "Madhepura",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 14,
+    "name": "Darbhanga",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 15,
+    "name": "Muzaffarpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 16,
+    "name": "Vaishali",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 17,
+    "name": "Gopalganj",
+    "reservation": "SC"
+  },
+  {
+    "state": "Bihar",
+    "number": 18,
+    "name": "Siwan",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 19,
+    "name": "Maharajganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 20,
+    "name": "Saran",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 21,
+    "name": "Hajipur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Bihar",
+    "number": 22,
+    "name": "Ujiarpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 23,
+    "name": "Samastipur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Bihar",
+    "number": 24,
+    "name": "Begusarai",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 25,
+    "name": "Khagaria",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 26,
+    "name": "Bhagalpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 27,
+    "name": "Banka",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 28,
+    "name": "Munger",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 29,
+    "name": "Nalanda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 30,
+    "name": "Patna Sahib",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 31,
+    "name": "Pataliputra",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 32,
+    "name": "Arrah",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 33,
+    "name": "Buxar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 34,
+    "name": "Sasaram",
+    "reservation": "SC"
+  },
+  {
+    "state": "Bihar",
+    "number": 35,
+    "name": "Karakat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 36,
+    "name": "Jahanabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 37,
+    "name": "Aurangabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 38,
+    "name": "Gaya",
+    "reservation": "SC"
+  },
+  {
+    "state": "Bihar",
+    "number": 39,
+    "name": "Nawada",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Bihar",
+    "number": 40,
+    "name": "Jamui",
+    "reservation": "SC"
+  },
+  {
+    "state": "Chandigarh",
+    "number": 1,
+    "name": "Chandigarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 1,
+    "name": "Sarguja",
+    "reservation": "ST"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 2,
+    "name": "Raigarh",
+    "reservation": "ST"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 3,
+    "name": "Janjgir–Champa",
+    "reservation": "SC"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 4,
+    "name": "Korba",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 5,
+    "name": "Bilaspur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 6,
+    "name": "Rajnandgaon",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 7,
+    "name": "Durg",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 8,
+    "name": "Raipur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 9,
+    "name": "Mahasamund",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 10,
+    "name": "Bastar",
+    "reservation": "ST"
+  },
+  {
+    "state": "Chhattisgarh",
+    "number": 11,
+    "name": "Kanker",
+    "reservation": "ST"
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "number": 1,
+    "name": "Daman and Diu",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "number": 2,
+    "name": "Dadra and Nagar Haveli",
+    "reservation": "ST"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 1,
+    "name": "Chandni Chowk",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 2,
+    "name": "North East Delhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 3,
+    "name": "East Delhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 4,
+    "name": "New Delhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 5,
+    "name": "North West Delhi",
+    "reservation": "SC"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 6,
+    "name": "West Delhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "NCT of Delhi",
+    "number": 7,
+    "name": "South Delhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Goa",
+    "number": 1,
+    "name": "North Goa",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Goa",
+    "number": 2,
+    "name": "South Goa",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 1,
+    "name": "Kachchh",
+    "reservation": "SC"
+  },
+  {
+    "state": "Gujarat",
+    "number": 2,
+    "name": "Banaskantha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 3,
+    "name": "Patan",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 4,
+    "name": "Mahesana",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 5,
+    "name": "Sabarkantha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 6,
+    "name": "Gandhinagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 7,
+    "name": "Ahmedabad East",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 8,
+    "name": "Ahmedabad West",
+    "reservation": "SC"
+  },
+  {
+    "state": "Gujarat",
+    "number": 9,
+    "name": "Surendranagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 10,
+    "name": "Rajkot",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 11,
+    "name": "Porbandar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 12,
+    "name": "Jamnagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 13,
+    "name": "Junagadh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 14,
+    "name": "Amreli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 15,
+    "name": "Bhavnagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 16,
+    "name": "Anand",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 17,
+    "name": "Kheda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 18,
+    "name": "Panchmahal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 19,
+    "name": "Dahod",
+    "reservation": "ST"
+  },
+  {
+    "state": "Gujarat",
+    "number": 20,
+    "name": "Vadodara",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 21,
+    "name": "Chhota Udaipur",
+    "reservation": "ST"
+  },
+  {
+    "state": "Gujarat",
+    "number": 22,
+    "name": "Bharuch",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 23,
+    "name": "Bardoli",
+    "reservation": "ST"
+  },
+  {
+    "state": "Gujarat",
+    "number": 24,
+    "name": "Surat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 25,
+    "name": "Navsari",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Gujarat",
+    "number": 26,
+    "name": "Valsad",
+    "reservation": "ST"
+  },
+  {
+    "state": "Haryana",
+    "number": 1,
+    "name": "Ambala",
+    "reservation": "SC"
+  },
+  {
+    "state": "Haryana",
+    "number": 2,
+    "name": "Kurukshetra",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 3,
+    "name": "Sirsa",
+    "reservation": "SC"
+  },
+  {
+    "state": "Haryana",
+    "number": 4,
+    "name": "Hisar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 5,
+    "name": "Karnal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 6,
+    "name": "Sonipat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 7,
+    "name": "Rohtak",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 8,
+    "name": "Bhiwani–Mahendragarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 9,
+    "name": "Gurgaon",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Haryana",
+    "number": 10,
+    "name": "Faridabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "number": 1,
+    "name": "Kangra",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "number": 2,
+    "name": "Mandi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "number": 3,
+    "name": "Hamirpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "number": 4,
+    "name": "Shimla",
+    "reservation": "SC"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "number": 1,
+    "name": "Baramulla",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "number": 2,
+    "name": "Srinagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "number": 3,
+    "name": "Anantnag–Rajouri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "number": 4,
+    "name": "Udhampur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "number": 5,
+    "name": "Jammu",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 1,
+    "name": "Rajmahal",
+    "reservation": "ST"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 2,
+    "name": "Dumka",
+    "reservation": "ST"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 3,
+    "name": "Godda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 4,
+    "name": "Chatra",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 5,
+    "name": "Koderma",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 6,
+    "name": "Giridih",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 7,
+    "name": "Dhanbad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 8,
+    "name": "Ranchi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 9,
+    "name": "Jamshedpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 10,
+    "name": "Singhbhum",
+    "reservation": "ST"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 11,
+    "name": "Khunti",
+    "reservation": "ST"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 12,
+    "name": "Lohardaga",
+    "reservation": "ST"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 13,
+    "name": "Palamu",
+    "reservation": "SC"
+  },
+  {
+    "state": "Jharkhand",
+    "number": 14,
+    "name": "Hazaribagh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 1,
+    "name": "Chikkodi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 2,
+    "name": "Belgaum",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 3,
+    "name": "Bagalkot",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 4,
+    "name": "Bijapur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Karnataka",
+    "number": 5,
+    "name": "Gulbarga",
+    "reservation": "SC"
+  },
+  {
+    "state": "Karnataka",
+    "number": 6,
+    "name": "Raichur",
+    "reservation": "ST"
+  },
+  {
+    "state": "Karnataka",
+    "number": 7,
+    "name": "Bidar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 8,
+    "name": "Koppal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 9,
+    "name": "Bellary",
+    "reservation": "ST"
+  },
+  {
+    "state": "Karnataka",
+    "number": 10,
+    "name": "Haveri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 11,
+    "name": "Dharwad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 12,
+    "name": "Uttara Kannada",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 13,
+    "name": "Davanagere",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 14,
+    "name": "Shimoga",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 15,
+    "name": "Udupi Chikmagalur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 16,
+    "name": "Hassan",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 17,
+    "name": "Dakshina Kannada",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 18,
+    "name": "Chitradurga",
+    "reservation": "SC"
+  },
+  {
+    "state": "Karnataka",
+    "number": 19,
+    "name": "Tumkur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 20,
+    "name": "Mandya",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 21,
+    "name": "Mysore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 22,
+    "name": "Chamarajanagar",
+    "reservation": "SC"
+  },
+  {
+    "state": "Karnataka",
+    "number": 23,
+    "name": "Bangalore Rural",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 24,
+    "name": "Bangalore North",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 25,
+    "name": "Bangalore Central",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 26,
+    "name": "Bangalore South",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 27,
+    "name": "Chikballapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Karnataka",
+    "number": 28,
+    "name": "Kolar",
+    "reservation": "SC"
+  },
+  {
+    "state": "Kerala",
+    "number": 1,
+    "name": "Kasaragod",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 2,
+    "name": "Kannur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 3,
+    "name": "Vatakara",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 4,
+    "name": "Wayanad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 5,
+    "name": "Kozhikode",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 6,
+    "name": "Malappuram",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 7,
+    "name": "Ponnani",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 8,
+    "name": "Palakkad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 9,
+    "name": "Alathur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Kerala",
+    "number": 10,
+    "name": "Thrissur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 11,
+    "name": "Chalakudy",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 12,
+    "name": "Ernakulam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 13,
+    "name": "Idukki",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 14,
+    "name": "Kottayam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 15,
+    "name": "Alappuzha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 16,
+    "name": "Mavelikara",
+    "reservation": "SC"
+  },
+  {
+    "state": "Kerala",
+    "number": 17,
+    "name": "Pathanamthitta",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 18,
+    "name": "Kollam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 19,
+    "name": "Attingal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Kerala",
+    "number": 20,
+    "name": "Thiruvananthapuram",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Ladakh",
+    "number": 1,
+    "name": "Ladakh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Lakshadweep",
+    "number": 1,
+    "name": "Lakshadweep",
+    "reservation": "ST"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 1,
+    "name": "Morena",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 2,
+    "name": "Bhind",
+    "reservation": "SC"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 3,
+    "name": "Gwalior",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 4,
+    "name": "Guna",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 5,
+    "name": "Sagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 6,
+    "name": "Tikamgarh",
+    "reservation": "SC"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 7,
+    "name": "Damoh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 8,
+    "name": "Khajuraho",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 9,
+    "name": "Satna",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 10,
+    "name": "Rewa",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 11,
+    "name": "Sidhi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 12,
+    "name": "Shahdol",
+    "reservation": "ST"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 13,
+    "name": "Jabalpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 14,
+    "name": "Mandla",
+    "reservation": "ST"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 15,
+    "name": "Balaghat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 16,
+    "name": "Chhindwara",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 17,
+    "name": "Hoshangabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 18,
+    "name": "Vidisha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 19,
+    "name": "Bhopal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 20,
+    "name": "Rajgarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 21,
+    "name": "Dewas",
+    "reservation": "SC"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 22,
+    "name": "Ujjain",
+    "reservation": "SC"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 23,
+    "name": "Mandsaur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 24,
+    "name": "Ratlam",
+    "reservation": "ST"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 25,
+    "name": "Dhar",
+    "reservation": "ST"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 26,
+    "name": "Indore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 27,
+    "name": "Khargone",
+    "reservation": "ST"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 28,
+    "name": "Khandwa",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "number": 29,
+    "name": "Betul",
+    "reservation": "ST"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 1,
+    "name": "Nandurbar",
+    "reservation": "ST"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 2,
+    "name": "Dhule",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 3,
+    "name": "Jalgaon",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 4,
+    "name": "Raver",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 5,
+    "name": "Buldhana",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 6,
+    "name": "Akola",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 7,
+    "name": "Amravati",
+    "reservation": "SC"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 8,
+    "name": "Wardha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 9,
+    "name": "Ramtek",
+    "reservation": "SC"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 10,
+    "name": "Nagpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 11,
+    "name": "Bhandara–Gondiya",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 12,
+    "name": "Gadchiroli–Chimur",
+    "reservation": "ST"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 13,
+    "name": "Chandrapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 14,
+    "name": "Yavatmal–Washim",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 15,
+    "name": "Hingoli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 16,
+    "name": "Nanded",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 17,
+    "name": "Parbhani",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 18,
+    "name": "Jalna",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 19,
+    "name": "Aurangabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 20,
+    "name": "Dindori",
+    "reservation": "ST"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 21,
+    "name": "Nashik",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 22,
+    "name": "Palghar",
+    "reservation": "ST"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 23,
+    "name": "Bhiwandi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 24,
+    "name": "Kalyan",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 25,
+    "name": "Thane",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 26,
+    "name": "Mumbai North",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 27,
+    "name": "Mumbai North West",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 28,
+    "name": "Mumbai North East",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 29,
+    "name": "Mumbai North Central",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 30,
+    "name": "Mumbai South Central",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 31,
+    "name": "Mumbai South",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 32,
+    "name": "Raigad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 33,
+    "name": "Maval",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 34,
+    "name": "Pune",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 35,
+    "name": "Baramati",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 36,
+    "name": "Shirur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 37,
+    "name": "Ahmednagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 38,
+    "name": "Shirdi",
+    "reservation": "SC"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 39,
+    "name": "Beed",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 40,
+    "name": "Osmanabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 41,
+    "name": "Latur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 42,
+    "name": "Solapur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 43,
+    "name": "Madha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 44,
+    "name": "Sangli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 45,
+    "name": "Satara",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 46,
+    "name": "Ratnagiri–Sindhudurg",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 47,
+    "name": "Kolhapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Maharashtra",
+    "number": 48,
+    "name": "Hatkanangle",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Manipur",
+    "number": 1,
+    "name": "Inner Manipur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Manipur",
+    "number": 2,
+    "name": "Outer Manipur",
+    "reservation": "ST"
+  },
+  {
+    "state": "Meghalaya",
+    "number": 1,
+    "name": "Shillong",
+    "reservation": "ST"
+  },
+  {
+    "state": "Meghalaya",
+    "number": 2,
+    "name": "Tura",
+    "reservation": "ST"
+  },
+  {
+    "state": "Mizoram",
+    "number": 1,
+    "name": "Mizoram",
+    "reservation": "ST"
+  },
+  {
+    "state": "Nagaland",
+    "number": 1,
+    "name": "Nagaland",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 1,
+    "name": "Bargarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 2,
+    "name": "Sundargarh",
+    "reservation": "ST"
+  },
+  {
+    "state": "Odisha",
+    "number": 3,
+    "name": "Sambalpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 4,
+    "name": "Keonjhar",
+    "reservation": "ST"
+  },
+  {
+    "state": "Odisha",
+    "number": 5,
+    "name": "Mayurbhanj",
+    "reservation": "ST"
+  },
+  {
+    "state": "Odisha",
+    "number": 6,
+    "name": "Balasore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 7,
+    "name": "Bhadrak",
+    "reservation": "SC"
+  },
+  {
+    "state": "Odisha",
+    "number": 8,
+    "name": "Jajpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Odisha",
+    "number": 9,
+    "name": "Dhenkanal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 10,
+    "name": "Bolangir",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 11,
+    "name": "Kalahandi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 12,
+    "name": "Nabarangpur",
+    "reservation": "ST"
+  },
+  {
+    "state": "Odisha",
+    "number": 13,
+    "name": "Kandhamal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 14,
+    "name": "Cuttack",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 15,
+    "name": "Kendrapara",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 16,
+    "name": "Jagatsinghpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Odisha",
+    "number": 17,
+    "name": "Puri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 18,
+    "name": "Bhubaneswar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 19,
+    "name": "Aska",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 20,
+    "name": "Berhampur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Odisha",
+    "number": 21,
+    "name": "Koraput",
+    "reservation": "ST"
+  },
+  {
+    "state": "Puducherry",
+    "number": 1,
+    "name": "Puducherry",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 1,
+    "name": "Gurdaspur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 2,
+    "name": "Amritsar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 3,
+    "name": "Khadoor Sahib",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 4,
+    "name": "Jalandhar",
+    "reservation": "SC"
+  },
+  {
+    "state": "Punjab",
+    "number": 5,
+    "name": "Hoshiarpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Punjab",
+    "number": 6,
+    "name": "Anandpur Sahib",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 7,
+    "name": "Ludhiana",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 8,
+    "name": "Fatehgarh Sahib",
+    "reservation": "SC"
+  },
+  {
+    "state": "Punjab",
+    "number": 9,
+    "name": "Faridkot",
+    "reservation": "SC"
+  },
+  {
+    "state": "Punjab",
+    "number": 10,
+    "name": "Firozpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 11,
+    "name": "Bathinda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 12,
+    "name": "Sangrur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Punjab",
+    "number": 13,
+    "name": "Patiala",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 1,
+    "name": "Ganganagar",
+    "reservation": "SC"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 2,
+    "name": "Bikaner",
+    "reservation": "SC"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 3,
+    "name": "Churu",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 4,
+    "name": "Jhunjhunu",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 5,
+    "name": "Sikar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 6,
+    "name": "Jaipur Rural",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 7,
+    "name": "Jaipur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 8,
+    "name": "Alwar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 9,
+    "name": "Bharatpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 10,
+    "name": "Karauli–Dholpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 11,
+    "name": "Dausa",
+    "reservation": "ST"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 12,
+    "name": "Tonk–Sawai Madhopur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 13,
+    "name": "Ajmer",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 14,
+    "name": "Nagaur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 15,
+    "name": "Pali",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 16,
+    "name": "Jodhpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 17,
+    "name": "Barmer",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 18,
+    "name": "Jalore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 19,
+    "name": "Udaipur",
+    "reservation": "ST"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 20,
+    "name": "Banswara",
+    "reservation": "ST"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 21,
+    "name": "Chittorgarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 22,
+    "name": "Rajsamand",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 23,
+    "name": "Bhilwara",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 24,
+    "name": "Kota",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Rajasthan",
+    "number": 25,
+    "name": "Jhalawar–Baran",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Sikkim",
+    "number": 1,
+    "name": "Sikkim",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 1,
+    "name": "Thiruvallur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 2,
+    "name": "Chennai North",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 3,
+    "name": "Chennai South",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 4,
+    "name": "Chennai Central",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 5,
+    "name": "Sriperumbudur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 6,
+    "name": "Kancheepuram",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 7,
+    "name": "Arakkonam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 8,
+    "name": "Vellore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 9,
+    "name": "Krishnagiri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 10,
+    "name": "Dharmapuri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 11,
+    "name": "Tiruvannamalai",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 12,
+    "name": "Arani",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 13,
+    "name": "Villupuram",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 14,
+    "name": "Kallakurichi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 15,
+    "name": "Salem",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 16,
+    "name": "Namakkal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 17,
+    "name": "Erode",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 18,
+    "name": "Tiruppur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 19,
+    "name": "Nilgiris",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 20,
+    "name": "Coimbatore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 21,
+    "name": "Pollachi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 22,
+    "name": "Dindigul",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 23,
+    "name": "Karur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 24,
+    "name": "Tiruchirappalli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 25,
+    "name": "Perambalur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 26,
+    "name": "Cuddalore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 27,
+    "name": "Chidambaram",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 28,
+    "name": "Mayiladuthurai",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 29,
+    "name": "Nagapattinam",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 30,
+    "name": "Thanjavur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 31,
+    "name": "Sivaganga",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 32,
+    "name": "Madurai",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 33,
+    "name": "Theni",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 34,
+    "name": "Virudhunagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 35,
+    "name": "Ramanathapuram",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 36,
+    "name": "Thoothukkudi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 37,
+    "name": "Tenkasi",
+    "reservation": "SC"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 38,
+    "name": "Tirunelveli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tamil Nadu",
+    "number": 39,
+    "name": "Kanniyakumari",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 1,
+    "name": "Adilabad",
+    "reservation": "ST"
+  },
+  {
+    "state": "Telangana",
+    "number": 2,
+    "name": "Peddapalle",
+    "reservation": "SC"
+  },
+  {
+    "state": "Telangana",
+    "number": 3,
+    "name": "Karimnagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 4,
+    "name": "Nizamabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 5,
+    "name": "Zahirabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 6,
+    "name": "Medak",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 7,
+    "name": "Malkajgiri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 8,
+    "name": "Secunderabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 9,
+    "name": "Hyderabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 10,
+    "name": "Chevella",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 11,
+    "name": "Mahbubnagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 12,
+    "name": "Nagarkurnool",
+    "reservation": "SC"
+  },
+  {
+    "state": "Telangana",
+    "number": 13,
+    "name": "Nalgonda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 14,
+    "name": "Bhongir",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Telangana",
+    "number": 15,
+    "name": "Warangal",
+    "reservation": "SC"
+  },
+  {
+    "state": "Telangana",
+    "number": 16,
+    "name": "Mahabubabad",
+    "reservation": "ST"
+  },
+  {
+    "state": "Telangana",
+    "number": 17,
+    "name": "Khammam",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tripura",
+    "number": 1,
+    "name": "Tripura West",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Tripura",
+    "number": 2,
+    "name": "Tripura East",
+    "reservation": "ST"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 1,
+    "name": "Saharanpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 2,
+    "name": "Kairana",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 3,
+    "name": "Muzaffarnagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 4,
+    "name": "Bijnor",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 5,
+    "name": "Nagina",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 6,
+    "name": "Moradabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 7,
+    "name": "Rampur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 8,
+    "name": "Sambhal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 9,
+    "name": "Amroha",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 10,
+    "name": "Meerut",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 11,
+    "name": "Baghpat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 12,
+    "name": "Ghaziabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 13,
+    "name": "Gautam Buddha Nagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 14,
+    "name": "Bulandshahr",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 15,
+    "name": "Aligarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 16,
+    "name": "Hathras",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 17,
+    "name": "Mathura",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 18,
+    "name": "Agra",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 19,
+    "name": "Fatehpur Sikri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 20,
+    "name": "Firozabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 21,
+    "name": "Mainpuri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 22,
+    "name": "Etah",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 23,
+    "name": "Badaun",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 24,
+    "name": "Aonla",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 25,
+    "name": "Bareilly",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 26,
+    "name": "Pilibhit",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 27,
+    "name": "Shahjahanpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 28,
+    "name": "Kheri",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 29,
+    "name": "Dhaurahra",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 30,
+    "name": "Sitapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 31,
+    "name": "Hardoi",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 32,
+    "name": "Misrikh",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 33,
+    "name": "Unnao",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 34,
+    "name": "Mohanlalganj",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 35,
+    "name": "Lucknow",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 36,
+    "name": "Rae Bareli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 37,
+    "name": "Amethi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 38,
+    "name": "Sultanpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 39,
+    "name": "Pratapgarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 40,
+    "name": "Farrukhabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 41,
+    "name": "Etawah",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 42,
+    "name": "Kannauj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 43,
+    "name": "Kanpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 44,
+    "name": "Akbarpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 45,
+    "name": "Jalaun",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 46,
+    "name": "Jhansi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 47,
+    "name": "Hamirpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 48,
+    "name": "Banda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 49,
+    "name": "Fatehpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 50,
+    "name": "Kaushambi",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 51,
+    "name": "Phulpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 52,
+    "name": "Allahabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 53,
+    "name": "Barabanki",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 54,
+    "name": "Faizabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 55,
+    "name": "Ambedkar Nagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 56,
+    "name": "Bahraich",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 57,
+    "name": "Kaiserganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 58,
+    "name": "Shrawasti",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 59,
+    "name": "Gonda",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 60,
+    "name": "Domariyaganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 61,
+    "name": "Basti",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 62,
+    "name": "Sant Kabir Nagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 63,
+    "name": "Maharajganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 64,
+    "name": "Gorakhpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 65,
+    "name": "Kushi Nagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 66,
+    "name": "Deoria",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 67,
+    "name": "Bansgaon",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 68,
+    "name": "Lalganj",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 69,
+    "name": "Azamgarh",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 70,
+    "name": "Ghosi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 71,
+    "name": "Salempur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 72,
+    "name": "Ballia",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 73,
+    "name": "Jaunpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 74,
+    "name": "Machhlishahr",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 75,
+    "name": "Ghazipur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 76,
+    "name": "Chandauli",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 77,
+    "name": "Varanasi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 78,
+    "name": "Bhadohi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 79,
+    "name": "Mirzapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "number": 80,
+    "name": "Robertsganj",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttarakhand",
+    "number": 1,
+    "name": "Tehri Garhwal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttarakhand",
+    "number": 2,
+    "name": "Garhwal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttarakhand",
+    "number": 3,
+    "name": "Almora",
+    "reservation": "SC"
+  },
+  {
+    "state": "Uttarakhand",
+    "number": 4,
+    "name": "Nainital–Udhamsingh Nagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "Uttarakhand",
+    "number": 5,
+    "name": "Haridwar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 1,
+    "name": "Cooch Behar",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 2,
+    "name": "Alipurduars",
+    "reservation": "ST"
+  },
+  {
+    "state": "West Bengal",
+    "number": 3,
+    "name": "Jalpaiguri",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 4,
+    "name": "Darjeeling",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 5,
+    "name": "Raiganj",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 6,
+    "name": "Balurghat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 7,
+    "name": "Maldaha Uttar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 8,
+    "name": "Maldaha Dakshin",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 9,
+    "name": "Jangipur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 10,
+    "name": "Baharampur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 11,
+    "name": "Murshidabad",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 12,
+    "name": "Krishnanagar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 13,
+    "name": "Ranaghat",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 14,
+    "name": "Bangaon",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 15,
+    "name": "Barrackpore",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 16,
+    "name": "Dum Dum",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 17,
+    "name": "Barasat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 18,
+    "name": "Basirhat",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 19,
+    "name": "Jaynagar",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 20,
+    "name": "Mathurapur",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 21,
+    "name": "Diamond Harbour",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 22,
+    "name": "Jadavpur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 23,
+    "name": "Kolkata Dakshin",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 24,
+    "name": "Kolkata Uttar",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 25,
+    "name": "Howrah",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 26,
+    "name": "Uluberia",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 27,
+    "name": "Srerampur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 28,
+    "name": "Hooghly",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 29,
+    "name": "Arambagh",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 30,
+    "name": "Tamluk",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 31,
+    "name": "Kanthi",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 32,
+    "name": "Ghatal",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 33,
+    "name": "Jhargram",
+    "reservation": "ST"
+  },
+  {
+    "state": "West Bengal",
+    "number": 34,
+    "name": "Medinipur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 35,
+    "name": "Purulia",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 36,
+    "name": "Bankura",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 37,
+    "name": "Bishnupur",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 38,
+    "name": "Bardhaman Purba",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 39,
+    "name": "Bardhaman–Durgapur",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 40,
+    "name": "Asansol",
+    "reservation": "GENERAL"
+  },
+  {
+    "state": "West Bengal",
+    "number": 41,
+    "name": "Bolpur",
+    "reservation": "SC"
+  },
+  {
+    "state": "West Bengal",
+    "number": 42,
+    "name": "Birbhum",
+    "reservation": "GENERAL"
+  }
+]

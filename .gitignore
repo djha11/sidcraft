@@ -1,0 +1,29 @@
+node_modules/
+.pnpm-store/
+.turbo/
+.next/
+.next-*/
+.expo/
+.expo-home/
+.expo-*/
+.idea/
+dist/
+dist-*/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+
+# Local recovery/install directories and runtime captures
+node_modules-broken-*/
+node_modules-partial-*/
+artifacts/
+/*.png
+/*.xml
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

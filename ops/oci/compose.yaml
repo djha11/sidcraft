@@ -1,0 +1,123 @@
+name: sidcraft
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: sidcraft
+      POSTGRES_USER: sidcraft
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sidcraft -d sidcraft"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [private]
+
+  api:
+    build:
+      context: ../..
+      dockerfile: ops/docker/api.Dockerfile
+    restart: unless-stopped
+    command:
+      - sh
+      - -c
+      - >-
+        pnpm --filter @pulse/database db:migrate &&
+        exec pnpm --filter @pulse/api exec tsx src/server.ts
+    environment:
+      NODE_ENV: production
+      API_PORT: 10000
+      DATABASE_URL: postgresql://sidcraft:${POSTGRES_PASSWORD}@postgres:5432/sidcraft
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET}
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?set ADMIN_API_KEY}
+      LIVEKIT_PUBLIC_URL: ${LIVEKIT_PUBLIC_URL:?set LIVEKIT_PUBLIC_URL}
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:?set LIVEKIT_API_KEY}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:?set LIVEKIT_API_SECRET}
+      RESEND_API_KEY: ${RESEND_API_KEY:?set RESEND_API_KEY}
+      EMAIL_FROM: ${EMAIL_FROM:?set EMAIL_FROM}
+      PULSE_NEWS_AI_PROVIDER: ollama_cloud
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY:?set OLLAMA_API_KEY}
+      PULSE_NEWS_MODEL: ${PULSE_NEWS_MODEL:-nemotron-3-nano:30b}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "--quiet",
+          "--tries=1",
+          "--spider",
+          "http://127.0.0.1:10000/health",
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+    networks: [private]
+
+  admin:
+    build:
+      context: ../..
+      dockerfile: ops/docker/admin.Dockerfile
+      args:
+        NEXT_PUBLIC_BRAND_NAME: SidCraft
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 10000
+      PULSE_API_URL: http://api:10000
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?set ADMIN_API_KEY}
+    depends_on:
+      api:
+        condition: service_healthy
+    networks: [private]
+
+  news-worker:
+    build:
+      context: ../..
+      dockerfile: ops/docker/news-worker.Dockerfile
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PULSE_API_URL: http://api:10000
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?set ADMIN_API_KEY}
+    depends_on:
+      api:
+        condition: service_healthy
+    networks: [private]
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?set APP_DOMAIN}
+      ADMIN_DOMAIN: ${ADMIN_DOMAIN:?set ADMIN_DOMAIN}
+      TLS_EMAIL: ${TLS_EMAIL:?set TLS_EMAIL}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+      admin:
+        condition: service_started
+    networks: [private]
+
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:
+
+networks:
+  private:
+    driver: bridge

@@ -1,0 +1,119 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1787682600000,
+      "tag": "0000_project_pulse_foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1787759400000,
+      "tag": "0001_social_feed",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1787845800000,
+      "tag": "0002_feed_media_anonymous_threads",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788021000000,
+      "tag": "0003_news_reels_publications",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788025000000,
+      "tag": "0004_user_reels_stories",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788117000000,
+      "tag": "0005_feed_polls_story_social",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788200000000,
+      "tag": "0006_live_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788286400000,
+      "tag": "0007_device_push_tokens",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788294000000,
+      "tag": "0008_email_verification_password_reset",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788300000000,
+      "tag": "0009_publication_media_gallery",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788303600000,
+      "tag": "0010_profile_customization",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788307200000,
+      "tag": "0011_profile_media_position",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788393600000,
+      "tag": "0012_highlights",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788397200000,
+      "tag": "0013_direct_messages",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788400800000,
+      "tag": "0014_message_attachments",
+      "breakpoints": true
+    },
+    { "idx": 15, "version": "7", "when": 1788500000000, "tag": "0015_admin_control", "breakpoints": true },
+    { "idx": 16, "version": "7", "when": 1788586400000, "tag": "0016_admin_operations", "breakpoints": true },
+    { "idx": 17, "version": "7", "when": 1788672800000, "tag": "0017_poll_media", "breakpoints": true },
+    { "idx": 18, "version": "7", "when": 1788759200000, "tag": "0018_user_preferences", "breakpoints": true },
+    { "idx": 19, "version": "7", "when": 1788845600000, "tag": "0019_news_automation_foundation", "breakpoints": true },
+    { "idx": 20, "version": "7", "when": 1789891200000, "tag": "0020_news_story_drafts", "breakpoints": true },
+    { "idx": 21, "version": "7", "when": 1789977600000, "tag": "0021_publication_stocks", "breakpoints": true },
+    { "idx": 22, "version": "7", "when": 1790064000000, "tag": "0022_news_media_suggestions", "breakpoints": true }
+  ]
+}

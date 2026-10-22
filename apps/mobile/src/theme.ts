@@ -1,0 +1,22 @@
+/** Central visual tokens for the Pulse social experience. */
+export const palette = {
+  background: "#FCFDFE",
+  surface: "#F5F8FC",
+  surfaceStrong: "#ECF2F8",
+  text: "#0A1424",
+  textSecondary: "#46566B",
+  muted: "#718096",
+  border: "#172235",
+  borderSoft: "#D5DFEA",
+  accent: "#087FE7",
+  accentPressed: "#0468C7",
+  accentSoft: "#E5F2FF",
+  accentFaint: "#F2F8FF",
+  onAccent: "#FFFFFF",
+  danger: "#E5484D",
+  success: "#168A65",
+  mediaBackground: "#05070A",
+  mediaText: "#FFFFFF",
+  overlay: "rgba(0,0,0,0.55)",
+  shadow: "rgba(21, 55, 91, 0.14)",
+} as const;
