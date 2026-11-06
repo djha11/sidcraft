@@ -1,3 +1,5 @@
+import { isIP } from "node:net";
+
 const categories = new Set([
   "india",
   "world",
@@ -35,6 +37,11 @@ export function parseSourceImport(input: string) {
       url.protocol !== "https:" ||
       url.username ||
       url.password ||
+      // Feed URLs are fetched by the server. Keep bulk imports away from
+      // loopback, private-network, and other IP-literal destinations.
+      isIP(url.hostname.replace(/^\[|\]$/g, "")) !== 0 ||
+      url.hostname === "localhost" ||
+      url.hostname.endsWith(".localhost") ||
       !categories.has(category ?? "") ||
       !Number.isInteger(pollingMinutes) ||
       pollingMinutes < 2 ||

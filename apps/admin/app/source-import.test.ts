@@ -19,6 +19,11 @@ describe("parseSourceImport", () => {
     expect(() =>
       parseSourceImport("Channel | http://example.org/rss | world"),
     ).toThrow("SOURCE_IMPORT_ROW");
+    for (const host of ["127.0.0.1", "[::1]", "localhost", "feeds.localhost"]) {
+      expect(() =>
+        parseSourceImport(`Channel | https://${host}/rss | world`),
+      ).toThrow("SOURCE_IMPORT_ROW");
+    }
     expect(() =>
       parseSourceImport("Channel | https://example.org/rss | mystery"),
     ).toThrow("SOURCE_IMPORT_ROW");
